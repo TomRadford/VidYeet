@@ -97,7 +97,7 @@ pnpm run dev
 
 ## Minio 
 
-Emulate object storage locally with Minio, make sure ACCESS :
+Emulate object storage locally with Minio, make sure S3 ACCESS and KEY env variables match MINIO_ROOT user and password in minio compose file:
 
 ```
 pnpm run minio:up
