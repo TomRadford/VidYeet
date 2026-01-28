@@ -1,12 +1,11 @@
-# Streamgeek
+# VidYeet
 
-POC for rolling our own video streaming! 🎥🚀🔥
+Easy (mostly free) cloudflare-backed video streaming for the homies 🎥
 
-- rwsdk 🔥
-- database (Prisma via D1)
-- Auth (better auth)
-- Storage (via R2)
-- Transcoding agents (node + ffmpeg + docker)
+- User authentication
+- Adaptive bitrate streaming (via HLS)
+- Edge caching
+- FREE egress (thanks cloudflare R2!)
 
 ## Setup / Deployment
 
@@ -16,6 +15,13 @@ Get going with your own video hosting quick n' easy!
 
 - A cloudflare account with a domain
 - A computer/server/vps for transcoding agent with Docker installed and a public https reverse proxy
+
+### Stack 
+- rwsdk 🔥
+- database (Prisma via D1)
+- Auth (better auth)
+- Storage (via R2)
+- Transcoding agents (node + ffmpeg + docker)
 
 ### Wrangler Setup
 

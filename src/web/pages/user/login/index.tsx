@@ -50,7 +50,7 @@ export function Login() {
           // display the error message
           setError(ctx.error.message);
         },
-      }
+      },
     );
   };
 
@@ -60,7 +60,7 @@ export function Login() {
 
   return (
     <>
-      <title>Login - StreamGeek</title>
+      <title>Login - VidYeet</title>
       <meta name="description" content="Login to your account" />
       <div className="flex flex-col gap-4 max-w-md mx-auto p-6">
         <Card>

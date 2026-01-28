@@ -47,7 +47,7 @@ export async function UploadEditorPage({
       console.error(
         "Agent for existing job not responding",
         job.agent.url,
-        error
+        error,
       );
       // Mark the job as failed since its agent is down
       await db.job.update({
@@ -103,7 +103,7 @@ export async function UploadEditorPage({
       const tokenResponse = await agentClient["generate-token"][":jobId"].$post(
         {
           param: { jobId: job.id },
-        }
+        },
       );
       const tokenData = await tokenResponse.json();
       if ("token" in tokenData) {
@@ -130,8 +130,8 @@ export async function UploadEditorPage({
 
   return (
     <>
-      <title>{`Upload for ${video.title} - StreamGeek`}</title>
-      <meta name="description" content="Upload a video to StreamGeek" />
+      <title>{`Upload for ${video.title} - VidYeet`}</title>
+      <meta name="description" content="Upload a video to VidYeet" />
       <UploadEditor
         videoId={video.id}
         videoTitle={video.title}

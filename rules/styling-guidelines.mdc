@@ -4,7 +4,7 @@ globs: src/web/**/*/*.tsx
 alwaysApply: false
 ---
 
-# Styling Guidelines for StreamGeek
+# Styling Guidelines for VidYeet
 
 ## Overview
 

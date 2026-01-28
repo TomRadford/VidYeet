@@ -1,14 +1,14 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "streamgeek",
+  "name": "vidyeet",
   "main": "src/worker.tsx",
   "compatibility_date": "2025-05-07",
   "compatibility_flags": ["nodejs_compat"],
   "assets": {
-    "binding": "ASSETS"
+    "binding": "ASSETS",
   },
   "observability": {
-    "enabled": true
+    "enabled": true,
   },
   // "vars": {
   //   "WEBAUTHN_APP_NAME": "streamgeek"
@@ -18,7 +18,7 @@
       "binding": "DB",
       "database_name": "streamgeek",
       // this is Tom's deployment DB
-      "database_id": "3c2a05e7-cb46-4cc9-a3a6-41c4e9b9a5e4"
-    }
-  ]
+      "database_id": "3c2a05e7-cb46-4cc9-a3a6-41c4e9b9a5e4",
+    },
+  ],
 }

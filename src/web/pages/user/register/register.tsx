@@ -72,7 +72,7 @@ export function Register({ inviteOnly = false }) {
           // display the error message
           setError(ctx.error.message);
         },
-      }
+      },
     );
   };
 
@@ -82,8 +82,8 @@ export function Register({ inviteOnly = false }) {
 
   return (
     <>
-      <title>Register - StreamGeek</title>
-      <meta name="description" content="Register to StreamGeek" />
+      <title>Register - VidYeet</title>
+      <meta name="description" content="Register to VidYeet" />
       <div className="flex flex-col gap-4 max-w-md mx-auto p-6">
         <Card>
           <CardHeader className="text-center">

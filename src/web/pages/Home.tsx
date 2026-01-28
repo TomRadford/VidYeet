@@ -16,7 +16,7 @@ export async function Home({ ctx }: RequestInfo) {
 
   return (
     <>
-      <title>Videos - StreamGeek</title>
+      <title>Videos - VidYeet</title>
       <meta
         name="description"
         content="Run your own video streaming app on the cheap! 🚀🤓"
