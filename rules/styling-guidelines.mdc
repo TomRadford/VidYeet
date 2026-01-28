@@ -8,7 +8,7 @@ alwaysApply: false
 
 ## Overview
 
-This document outlines the styling patterns, component usage, and design conventions established for the StreamGeek application using shadcn/ui components and Tailwind CSS.
+This document outlines the styling patterns, component usage, and design conventions established for the VidYeet application using shadcn/ui components and Tailwind CSS.
 
 ## Core Design Principles
 

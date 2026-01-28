@@ -95,6 +95,16 @@ pnpm i
 pnpm run dev
 ```
 
+## Minio 
+
+Emulate object storage locally with Minio, make sure ACCESS :
+
+```
+pnpm run minio:up
+```
+
+Note that we use this instead of the R2 binding directly (ie: env.R2) because the agent app would not have access to this binding (hence S3 api)
+
 ### Running the agent app
 
 Install ffmpeg on your system

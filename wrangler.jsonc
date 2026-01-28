@@ -16,7 +16,7 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "streamgeek",
+      "database_name": "vidyeet",
       // this is Tom's deployment DB
       "database_id": "3c2a05e7-cb46-4cc9-a3a6-41c4e9b9a5e4",
     },
